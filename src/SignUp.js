@@ -86,7 +86,7 @@ const SignUp = ({signUp,onLogin, isChecked,setIsChecked,username,setUsername,fir
                type='checkbox' 
                value={isChecked} 
                onChange={(e) => setIsChecked(e.target.value)}/>
-              <span>I agree to the terms and conditions</span>
+              <span className='cond'>I agree to the terms and conditions</span>
           </div>
            <button className='sign-btn' onClick={signUp}>Sign Up</button>
          <p>Already A User?<span><button className='loginBtn' onClick={onLogin}>Login</button></span>

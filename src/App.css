@@ -81,11 +81,18 @@
     align-items: center;
     color: green;
   }
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
+   @media screen and (max-width:480px){
+     .cont{
+        display: flex;
+        flex-direction: column;
+        width:350px;
+        height:500px;
+     }
+     .img-container{
+      display:none;
     }
-    to {
-      transform: rotate(360deg);
+   .flip-container{
+     height:100%;
+     width: 100%;
     }
   }

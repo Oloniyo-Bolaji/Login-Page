@@ -72,3 +72,11 @@ li{
   background: none;
   color:grey;
 }
+  @media screen and (max-width:480px){
+ .sign-info-div input{
+        width:200px;
+     }
+  .cond{
+    font-size: 13px;
+  }
+  }

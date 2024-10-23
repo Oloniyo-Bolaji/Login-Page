@@ -75,7 +75,7 @@ const [cshow, setCShow] = useState(false)
         <div className='cont'>
           {/*Image Container*/}
          <div className='img-container'>
-           <img src="./Flower.jpeg"/>
+           <img src="./Flower.jpeg" alt='flower image'/>
          </div>
            {/*SignUp and Login Page */}
            <div className="flip-container">

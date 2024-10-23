@@ -80,3 +80,11 @@ button .signup{
     padding: 8px;
     border:25px;
 }
+  @media screen and (max-width:480px){
+ .input-div{
+        width:200px;
+     }
+  .login-info a{
+    margin-right: -100px;
+  }
+  }
