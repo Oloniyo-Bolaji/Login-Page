@@ -1,0 +1,74 @@
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-info p{
+    font-size: 15px;
+}
+.sign-info-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign-info-div input{
+    width: 300px;
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid skyblue;
+    font-size: 15px;
+}
+.check-div{
+    display: flex;
+    gap:2px;
+}
+.check-div input{
+  width:15px;
+}
+input::placeholder{
+    font-size: 13px;
+}
+li{
+    list-style-type: none;
+    font-size: 13px;
+    margin-top: 5px;
+    color:red;
+}
+.check{
+  background: blue;
+}
+
+.sign-btn{
+    border: none;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    background-color:#81acf0;
+   /* border-radius: 20px;*/
+    margin-top: 10px;
+}
+.sign-btn:hover{
+    color:skyblue;
+    border: 1px solid skyblue;
+    background: white;
+}
+.loginBtn{
+    border:none;
+    background:none;
+    text-decoration:underline;
+    color: blueviolet;
+}
+.visible{
+  border: none;
+  background: none;
+  color:grey;
+}

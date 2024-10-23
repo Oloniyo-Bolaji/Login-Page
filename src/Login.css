@@ -1,0 +1,82 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-info input{
+    width: 100%;
+    height: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid skyblue;
+    padding-right: 30px;
+}
+.input-div{
+  position: relative;
+  width: 300px;
+}
+.input-div input{
+  width: 100%;
+  height:35px;
+  padding-right: 10px;
+}
+.visible{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+input::placeholder{
+    font-size: 13px;
+}
+.incorrect{
+  color: red;
+  font-size: 12px;
+}
+.login-info a{
+    margin-right: -190px;
+    font-size: 14px;
+    text-decoration: none;
+    color:grey;
+}
+.login-info a:hover{
+    color:blueviolet;
+    text-decoration: underline;
+}
+.login-info p{
+    font-size: 15px;
+}
+.create{
+    background: none;
+    font-size: 12px;
+    text-decoration: underline;
+    color: blueviolet;
+    border: none;
+    margin-right:10px;
+}
+.login-btn{
+    border: none;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    background-color:#81acf0;
+   /* border-radius: 20px;*/
+    margin-top: 10px;
+}
+.login-btn:hover{
+    color:skyblue;
+    border: 1px solid skyblue;
+    background: white;
+}
+button .signup{
+    padding: 8px;
+    border:25px;
+}
